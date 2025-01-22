@@ -4,9 +4,10 @@ def find_max(lst):
 
     current_max = lst[0]
 
-    #
-    #  YOUR CODE GOES HERE
-    #
+    for i in range(1, len(inputArray)):
+        if inputArray[i] > max:
+            current_max = inputArray[i]
+
 
     return current_max
 
